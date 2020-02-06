@@ -4,6 +4,36 @@ This network architecture is presented in which detects the locations of landmar
 The method is based on heatmap generation and location of the argmax.<br>
 The network architecuture is same as the autoencoder with skip connections in the generator of the pix2pix network.<br>
 
+
+# Paper:
+This code is used for the following research. If you found it usefull, please cite the following document:
+
+https://www.nature.com/articles/s41598-020-58103-6
+
+@article{eslami2020automatic,
+  title={Automatic vocal tract landmark localization from midsagittal MRI data},
+  author={Eslami, Mohammad and Neuschaefer-Rube, Christiane and Serrurier, Antoine},
+  journal={Scientific Reports},
+  volume={10},
+  number={1},
+  pages={1--13},
+  year={2020},
+  publisher={Nature Publishing Group}
+}
+
+Following repositories are also used for the mentioned paper:
+
+https://github.com/mohaEs/Train-Predict-Landmarks-by-SFD
+
+https://github.com/mohaEs/Train-Predict-Landmarks-by-DAN
+
+https://github.com/mohaEs/Train-Predict-Landmarks-by-MCAM
+
+https://github.com/mohaEs/Train-Predict-Landmarks-by-dlib
+
+https://github.com/mohaEs/Train-Predict-Landmarks-by-flat-net
+
+
 ## set up
 code is based on the tensorflow 1.14 which the embedded keras is also used.
 
